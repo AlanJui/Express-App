@@ -1,0 +1,20 @@
+{
+  "name": "expressapp",
+  "description": "",
+  "main": "",
+  "authors": [
+    "居正中 <alanjui.1960@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/AlanJui/Express-App",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "devextreme-aspnet-data": "^1.2.7"
+  }
+}
