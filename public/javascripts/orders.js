@@ -1,6 +1,8 @@
 $(function(){
 
-  var API_URL = 'http://192.168.66.11:5000/api';
+  // var API_URL = 'http://114.198.172.94:9000/api';
+  // var API_URL = 'http://192.168.66.11:5000/api';
+  var API_URL = 'http://localhost:5000';
   var LOOKUP_CUSTOMER = `${API_URL}/customers-lookup`;
   var LOOKUP_EMPLOYEE = `${API_URL}/employees-lookup`;
   var LOOKUP_SHIPPER  = `${API_URL}/shippers-lookup`;
@@ -9,10 +11,14 @@ $(function(){
 
     dataSource: DevExpress.data.AspNet.createStore({
       key: 'orderId',
-      loadUrl:   `${API_URL}/list-order`,
-      updateUrl: `${API_URL}/update-order`,
-      insertUrl: `${API_URL}/insert-order`,
-      deleteUrl: `${API_URL}/delete-order`,
+      loadUrl:   `${API_URL}/orders`,
+      updateUrl: `${API_URL}/orders`,
+      insertUrl: `${API_URL}/orders`,
+      deleteUrl: `${API_URL}/orders`,
+      // loadUrl:   `${API_URL}/list-order`,
+      // updateUrl: `${API_URL}/update-order`,
+      // insertUrl: `${API_URL}/insert-order`,
+      // deleteUrl: `${API_URL}/delete-order`,
 
       onBeforeSend: function (operation, ajaxSettings) {
         // operation - any of "load", "update", "insert", "delete"
@@ -127,8 +133,4 @@ $(function(){
     }
   });
 
-<<<<<<< HEAD
 });
-=======
-});
->>>>>>> dbff2e82843eded5cff54b3e48f868fd07850ecd

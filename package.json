@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "nodemon ./bin/www"
+    "start": "nodemon ./bin/www",
+    "db": "json-server --port 5000 --watch data/db.json"
   },
   "dependencies": {
     "body-parser": "~1.17.1",
