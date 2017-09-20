@@ -14,16 +14,12 @@
       "id": 3,
       "title": "Make restaurant reservation",
       "complete": false
-    },
-    {
-      "id": 4,
-      "title": "DevExtreme + RESTful API",
-      "complete": false
     }
   ],
+
   "Orders": [
     {
-      "id": 10248,
+      "orderId": 10248,
       "customerId": "VINET",
       "employeeId": 5,
       "orderDate": "1996-07-04T00:00:00",
@@ -43,7 +39,7 @@
       "orderDetails": []
     },
     {
-      "id": 10249,
+      "orderId": 10249,
       "customerId": "TOMSP",
       "employeeId": 6,
       "orderDate": "1996-07-05T00:00:00",
@@ -63,7 +59,7 @@
       "orderDetails": []
     },
     {
-      "id": 10250,
+      "orderId": 10250,
       "customerId": "HANAR",
       "employeeId": 4,
       "orderDate": "1996-07-08T00:00:00",
@@ -83,7 +79,7 @@
       "orderDetails": []
     },
     {
-      "id": 10251,
+      "orderId": 10251,
       "customerId": "VICTE",
       "employeeId": 3,
       "orderDate": "1996-07-08T00:00:00",
@@ -103,7 +99,7 @@
       "orderDetails": []
     },
     {
-      "id": 10252,
+      "orderId": 10252,
       "customerId": "SUPRD",
       "employeeId": 4,
       "orderDate": "1996-07-09T00:00:00",
@@ -123,7 +119,7 @@
       "orderDetails": []
     },
     {
-      "id": 10253,
+      "orderId": 10253,
       "customerId": "HANAR",
       "employeeId": 3,
       "orderDate": "1996-07-10T00:00:00",
@@ -143,7 +139,7 @@
       "orderDetails": []
     },
     {
-      "id": 10254,
+      "orderId": 10254,
       "customerId": "CHOPS",
       "employeeId": 5,
       "orderDate": "1996-07-11T00:00:00",
@@ -161,43 +157,12 @@
       "employee": null,
       "shipViaNavigation": null,
       "orderDetails": []
-    },
-    {
-      "requiredDate": "2017-09-23T00:00:00",
-      "shipVia": "3",
-      "shipCountry": "Taiwan",
-      "shipCity": "Taipei City",
-      "employeeId": "9",
-      "id": "100",
-      "customerId": "ANATR",
-      "orderDate": "2017-09-20T00:00:00"
-    },
-    {
-      "__KEY__": "c6dbd9ce-bef8-7c3b-e3cc-6b419d4cabe5",
-      "id": "101",
-      "customerId": "ALFKI",
-      "orderDate": "2017-09-20T00:00:00",
-      "requiredDate": "2017-09-23T00:00:00",
-      "shipVia": "3",
-      "shipCountry": "Taiwan",
-      "shipCity": "Taipei City",
-      "employeeId": "2"
-    },
-    {
-      "__KEY__": "b9955f91-e680-d393-8c43-2c7abda84496",
-      "id": "102",
-      "customerId": "ALFKI",
-      "orderDate": "2017-09-20T00:00:00",
-      "requiredDate": "2017-09-27T00:00:00",
-      "shipVia": "3",
-      "shipCountry": "Taiwan",
-      "shipCity": "Taipei City",
-      "employeeId": "2"
     }
   ],
+
   "OrderDetails": [
     {
-      "id": 10248,
+      "orderId": 10248,
       "productId": 11,
       "unitPrice": 14,
       "quantity": 12,
@@ -206,7 +171,7 @@
       "product": null
     },
     {
-      "id": 10248,
+      "orderId": 10248,
       "productId": 42,
       "unitPrice": 9.8,
       "quantity": 10,
@@ -215,7 +180,7 @@
       "product": null
     },
     {
-      "id": 10248,
+      "orderId": 10248,
       "productId": 72,
       "unitPrice": 34.8,
       "quantity": 5,
@@ -224,7 +189,7 @@
       "product": null
     },
     {
-      "id": 10249,
+      "orderId": 10249,
       "productId": 14,
       "unitPrice": 18.6,
       "quantity": 9,
@@ -233,7 +198,7 @@
       "product": null
     },
     {
-      "id": 10249,
+      "orderId": 10249,
       "productId": 51,
       "unitPrice": 42.4,
       "quantity": 40,
@@ -242,7 +207,7 @@
       "product": null
     },
     {
-      "id": 10250,
+      "orderId": 10250,
       "productId": 41,
       "unitPrice": 7.7,
       "quantity": 10,
@@ -251,7 +216,7 @@
       "product": null
     },
     {
-      "id": 10250,
+      "orderId": 10250,
       "productId": 51,
       "unitPrice": 42.4,
       "quantity": 35,
@@ -260,7 +225,7 @@
       "product": null
     },
     {
-      "id": 10250,
+      "orderId": 10250,
       "productId": 65,
       "unitPrice": 16.8,
       "quantity": 15,
@@ -269,7 +234,7 @@
       "product": null
     },
     {
-      "id": 10251,
+      "orderId": 10251,
       "productId": 22,
       "unitPrice": 16.8,
       "quantity": 6,
@@ -278,7 +243,7 @@
       "product": null
     },
     {
-      "id": 10251,
+      "orderId": 10251,
       "productId": 57,
       "unitPrice": 15.6,
       "quantity": 15,
@@ -287,7 +252,7 @@
       "product": null
     },
     {
-      "id": 10251,
+      "orderId": 10251,
       "productId": 65,
       "unitPrice": 16.8,
       "quantity": 20,
@@ -296,7 +261,7 @@
       "product": null
     },
     {
-      "id": 10252,
+      "orderId": 10252,
       "productId": 20,
       "unitPrice": 64.8,
       "quantity": 40,
@@ -305,7 +270,7 @@
       "product": null
     },
     {
-      "id": 10252,
+      "orderId": 10252,
       "productId": 33,
       "unitPrice": 2,
       "quantity": 25,
@@ -314,7 +279,7 @@
       "product": null
     },
     {
-      "id": 10252,
+      "orderId": 10252,
       "productId": 60,
       "unitPrice": 27.2,
       "quantity": 40,
@@ -323,7 +288,7 @@
       "product": null
     },
     {
-      "id": 10253,
+      "orderId": 10253,
       "productId": 31,
       "unitPrice": 10,
       "quantity": 20,
@@ -332,7 +297,7 @@
       "product": null
     },
     {
-      "id": 10253,
+      "orderId": 10253,
       "productId": 39,
       "unitPrice": 14.4,
       "quantity": 42,
@@ -341,7 +306,7 @@
       "product": null
     },
     {
-      "id": 10253,
+      "orderId": 10253,
       "productId": 49,
       "unitPrice": 16,
       "quantity": 40,
@@ -350,7 +315,7 @@
       "product": null
     },
     {
-      "id": 10254,
+      "orderId": 10254,
       "productId": 24,
       "unitPrice": 3.6,
       "quantity": 15,
@@ -359,7 +324,7 @@
       "product": null
     },
     {
-      "id": 10254,
+      "orderId": 10254,
       "productId": 55,
       "unitPrice": 19.2,
       "quantity": 21,
@@ -368,7 +333,7 @@
       "product": null
     },
     {
-      "id": 10254,
+      "orderId": 10254,
       "productId": 74,
       "unitPrice": 8,
       "quantity": 21,
@@ -377,6 +342,7 @@
       "product": null
     }
   ],
+
   "customers-lookup": [
     {
       "value": "ALFKI",
@@ -743,6 +709,7 @@
       "text": "Wolski  Zajazd (Poland)"
     }
   ],
+
   "employees-lookup": [
     {
       "value": 2,
@@ -781,6 +748,7 @@
       "text": "Steven Buchanan"
     }
   ],
+
   "shippers-lookup": [
     {
       "value": 3,

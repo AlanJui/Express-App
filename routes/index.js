@@ -25,4 +25,8 @@ router.get('/orders', function (req, res, next) {
   res.render('pages/orders', {});
 });
 
+router.get('/json-server-orders', function (req, res, next) {
+  res.render('pages/json-server-orders', {});
+});
+
 module.exports = router;
