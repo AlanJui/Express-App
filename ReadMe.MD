@@ -169,5 +169,14 @@ router.get('/orders', function (req, res, next) {
  - [Git](https://git-scm.com/)：程式／文件的版本控管工具
  - [NodeJS & NPM](https://nodejs.org/en/)：採用 V8 引掣的 JavaScript 執行平台及套件管理工具
  - [Bower](https://bower.io/)：Web 前端程式館管理工具
+
+---
+
+## 專案相關參考資訊
+
  - [ExpressJS](http://expressjs.com/) ：採用 NodeJS 做為基礎，可自行開發 Web Server 的平台 
  - [JSON Server](https://github.com/typicode/json-server)：不僅寫程式，僅需提供 JSON 格式檔，就能提供 RESTful Web API Service 的工具
+ - [jQuery API](http://api.jquery.com/)： jQuery 官網的 API 文件
+ - [Bootstrap](https://getbootstrap.com/docs/4.0/getting-started/introduction/)：Bootstrap 官網
+ - [Bootstrap簡體中文網](http://v3.bootcss.com/)：Bootstrap 中文網
+ 
