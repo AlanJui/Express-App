@@ -29,4 +29,12 @@ router.get('/json-server-orders', function (req, res, next) {
   res.render('pages/json-server-orders', {});
 });
 
+router.get('/rest-api-orders', function (req, res, next) {
+  res.render('pages/rest-api-orders', {});
+});
+
+router.get('/form/entry', function (req, res, next) {
+  res.render('pages/form/entry', {});
+});
+
 module.exports = router;

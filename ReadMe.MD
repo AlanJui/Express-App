@@ -2,11 +2,11 @@
 
 DevExtreme 做為 Web 前端的開發工具，其功能固然強大，但也因此致使「掌握用法」之事變得有些困難。
 
-為使「研究」的工作變得「簡單」一些，因此有了本專案，想要......
+為了「避重就輕」，使「研究」工作變得「簡易」些，因而有了本專案，企圖......
 
- - 利用 [ExpressJS](http://expressjs.com/) 具有「Web Page Template」的特性，避免重複輸入的麻煩，更重要的是像 NavBar 內超連結的維護工作可單一化
+ - 利用 [ExpressJS](http://expressjs.com/) 具有「Web Page Template」的特性，避免重複輸入的麻煩；更重要的是，對於 NavBar 超連結的維護工作，僅需在單一處修改即可
 
- - 使用 [JSON Server](https://github.com/typicode/json-server)e ，借助其功能特性，僅需編輯 JSON 格式的文字檔案，就能擁有一台「偽 RESTful API Server」，令 Web 前台的研究工作簡化，不需先完成後台的 Web API Service 
+ - 使用 [JSON Server ](https://github.com/typicode/json-server) 當「偽 RESTful Web API Service」，僅需提供 JSON 格式的文字檔案，就能與 Web 前台介接，提供與 DB 存／取資料的服務 
 
 為能正常操作以下「步驟」，請依據「事前準備」章節，備妥應安裝之軟體套件及資料庫。
 
@@ -14,7 +14,7 @@ DevExtreme 做為 Web 前端的開發工具，其功能固然強大，但也因�
 
 ## 開發作業程序
 
-想要瀏覽本專案之實作結果；或是欲以此專案作為模版，著手進行程式開發工作，請依下述程序進行操作。
+想要試用本專案之實作成果，請依下述程序進行操作。
 
 #### （1）下載專案檔案
 自 GitHub 下載本專案所需使用檔案。
@@ -166,7 +166,8 @@ router.get('/orders', function (req, res, next) {
 
 使用本專案的原始程式碼之前，須在開發機中，先完成以下軟體之安裝。
 
- - [Git](https://git-scm.com/)
- - [NodeJS & NPM](https://nodejs.org/en/)
- - [ExpressJS](http://expressjs.com/) 
- - [JSON Server](https://github.com/typicode/json-server)
+ - [Git](https://git-scm.com/)：程式／文件的版本控管工具
+ - [NodeJS & NPM](https://nodejs.org/en/)：採用 V8 引掣的 JavaScript 執行平台及套件管理工具
+ - [Bower](https://bower.io/)：Web 前端程式館管理工具
+ - [ExpressJS](http://expressjs.com/) ：採用 NodeJS 做為基礎，可自行開發 Web Server 的平台 
+ - [JSON Server](https://github.com/typicode/json-server)：不僅寫程式，僅需提供 JSON 格式檔，就能提供 RESTful Web API Service 的工具
