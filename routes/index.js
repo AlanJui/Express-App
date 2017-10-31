@@ -13,6 +13,7 @@ router.get('/', function(req, res, next) {
 
   res.render('pages/index', {
     title: 'Home Page',
+    myCss: 'style.css',
     drinks: drinks,
     tagline: tagline
   });
@@ -20,55 +21,57 @@ router.get('/', function(req, res, next) {
 
 router.get('/about', function (req, res, next) {
   res.render('pages/about', {
-    title: 'About'
-  });
-});
-
-router.get('/orders', function (req, res, next) {
-  res.render('pages/orders', {
-    title: 'Orders'
+    title: 'About',
+    myCss: 'style.css'
   });
 });
 
 router.get('/chart-1', function (req, res, next) {
   res.render('pages/charts/chart-1', {
-    title: 'Chart 1'
+    title: 'Chart 1',
+    myCss: 'charts/chart-01'
   });
 });
 
 router.get('/chart-2', function (req, res, next) {
   res.render('pages/charts/chart-2', {
-    title: 'Chart 2'
+    title: 'Chart 2',
+    myCss: 'charts/chart-02'
   });
 });
 
 router.get('/chart-3', function (req, res, next) {
   res.render('pages/charts/chart-3', {
-    title: 'Chart 3'
+    title: 'Chart 3',
+    myCss: 'style.css'
   });
 });
 
 router.get('/json-server-orders', function (req, res, next) {
   res.render('pages/json-server-orders', {
-    title: 'Orders'
+    title: 'Orders',
+    myCss: 'style.css'
   });
 });
 
 router.get('/rest-api-orders', function (req, res, next) {
   res.render('pages/rest-api-orders', {
-    title: 'Orders Data from RESTful API'
+    title: 'Orders Data from RESTful API',
+    myCss: 'style.css'
   });
 });
 
 router.get('/form/entry', function (req, res, next) {
   res.render('pages/form/entry', {
-    title: 'Entry Form'
+    title: 'Entry Form',
+    myCss: 'style.css'
   });
 });
 
 router.get('/form/customize-item', function (req, res, next) {
   res.render('pages/form/customize-item', {
-    title: 'Customize Item'
+    title: 'Customize Item',
+    myCss: 'style.css'
   });
 });
 

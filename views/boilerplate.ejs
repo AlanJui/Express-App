@@ -9,6 +9,7 @@
     <% include ./partials/js-libs %>
 </head>
 <body>
+<!--<body class="dx-viewport">-->
 
 <div class="wrapper">
 
@@ -55,13 +56,14 @@
     </nav>
 
     <!-- Page Content -->
-    <div id="content">
+    <div class="dx-viewport">
+    <!--<div id="content">-->
         <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn">
             <i class="glyphicon glyphicon-align-left"></i>
             Toggle Sidebar
         </button>
         <!-- We'll fill this with dummy content -->
-        <%- body -%>
+        <%- body %>
 
     </div>
 
